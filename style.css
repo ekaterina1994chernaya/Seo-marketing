@@ -19,6 +19,10 @@ header{
     display: flex;
 }
 
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 400;
+}
 
 p{
     font-family: 'Open Sans', sans-serif; 
@@ -339,5 +343,85 @@ h3{
 
 .border-top{
     margin-top: 2000px;
+    width: 100%;
+}
+
+/* block optimization*/
+
+.optimization{
+    width: 100%;
+    height: 870px;
+    background-color: #6425CB;
+    margin-top: -5px;
+    display: flex;
+}
+
+.opti-one{
+   margin: 200px 0 100px 140px;
+}
+
+.opti-two{
+    margin: 100px 140px 100px 110px;
+}
+
+.opti-two{
+    display: flex;
+}
+
+.opti-description{
+    margin: 0;
+    font-size: 42px;
+    line-height: 56px;
+    color: #FFFFFF;
+}
+
+.opti-text{
+    font-size: 18px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+
+.opti-button{
+    width: 186px;
+    height: 52px;
+    margin-top: 10px;
+}
+
+span{
+    color: #FFFFFF;
+}
+
+.opti-card{
+    background-color: #fff;
+    width: 250px;
+    height: 220px;
+    padding: 35px 35px 50px;
+    margin: 30px;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.card-left{
+    margin-top: -30px;
+}
+
+.opti-icon{
+    max-width: 48px;
+    max-height: 48px;
+}
+
+.card-name{
+    font-size: 20px;
+    line-height: 30px;
+    color: #2C1258;
+}
+
+.card-text{
+    font-size: 16px;
+    line-height: 28px;
+    color: #604B83;
+}
+
+.border-botton{
     width: 100%;
 }
