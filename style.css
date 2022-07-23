@@ -167,3 +167,177 @@ h1{
     height: 52px;
     margin-top: 25px;
 }
+
+.img-border{
+    width: 100%;
+    margin-top: 150px;
+    position: relative;
+}
+
+/* block - agency*/
+
+.agency{
+    width: 1160px;
+    height: 418px;
+    background: #FFFFFF;
+    box-shadow: 9px 9px 35px rgba(56, 11, 113, 0.1);
+    border-radius: 10px;
+    padding: 100px 80px;
+    display: flex;
+    margin: -90px 140px 0px;
+    position: absolute;
+}
+
+.text-agency, .icon-agency{
+    width: 500px;
+    height: 318px;
+    margin-right: 20px;
+}
+
+.block-one-agency, .block-two-agency{
+    display: flex;
+}
+
+.yellow-text{
+    font-size: 19px;
+    color: #F4AB00;
+}
+
+.building{
+    color: #2C1258;
+    font-size: 42px;
+    line-height: 56px;
+}
+
+.market{
+    font-size: 18px;
+    line-height: 34px;
+    color: #604B83;
+}
+
+.block-one-two{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+h6{
+    font-size: 19px;
+    line-height: 30px;
+    color: #2C1258;
+    margin: 10px;
+}
+
+.agency-text-duble{
+    font-size: 15px;
+    line-height: 28px;
+    color: #604B83;
+}
+
+.icon-for-agency{
+    width: 86px;
+    height: 86px;
+    margin-top: 40px;
+}
+
+/* block result*/
+
+.result{
+    margin: 650px 140px;
+    width: 1335px;
+    max-height: 1350px;
+    position: absolute;
+}
+
+.result-text{
+    width: 510px;
+}
+
+.result-one, .result-two{
+    display: flex;
+    padding: 10px;
+    width: 1160px;
+    height: 600px;
+    margin-bottom: 150px;
+}
+
+.h6{
+    font-size: 20px;
+    line-height: 30px;
+    color: #F4AB00;
+}
+
+h3{
+    font-size: 42px;
+    line-height: 56px;
+    color: #2C1258;
+    margin: 2px;
+}
+.result-list{
+    list-style-image: url(./logo/list.svg);
+    -webkit-column-count: 2;
+}
+.res-list{
+    color: #2C1258;
+    font-size: 16px;
+    line-height: 28px;
+    line-height: 2.4;
+}
+
+.res-double-text{
+    font-size: 18px;
+    line-height: 34px;
+    color: #604B83;
+    font-family: 'Nunito';
+    font-style: normal;
+}
+
+.laptop{
+    max-width: 552px;
+    max-height: 559px;
+    margin-right: 50px;
+}
+
+.diagram{
+    max-width: 550px;
+    max-height: 490px;
+    margin-left: 30px;
+}
+
+.statist{
+    display: flex;
+}
+
+.statist-one, .statist-two{
+    width: 203px;
+    height: 64px;
+    background: #F6F1FF;
+    border-radius: 10px;
+    padding: 25px;
+    display: flex;
+    margin-right: 25px;
+}
+
+.static{
+    font-size: 28px;
+    line-height: 36px;
+    color: #2C1258; 
+    margin: 0 20px;   
+}
+
+.statiic-description{
+    font-size: 15px;
+    line-height: 28px;
+    color: #2C1258;
+    margin: 0 20px;
+}
+
+.static-icon{
+    width: 64px;
+    height: 64px;
+}
+
+.border-top{
+    margin-top: 2000px;
+    width: 100%;
+}
