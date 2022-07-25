@@ -12,6 +12,10 @@ header{
     
 }
 
+li{
+    font-family: 'Open Sans', sans-serif; 
+}
+
 .header{
     width: 1160px;
     height: 68px;
@@ -424,4 +428,99 @@ span{
 
 .border-botton{
     width: 100%;
+}
+
+/* block servies*/
+
+.servis{
+    width: 1335px;
+    height: 800px;
+    margin: 50px 140px 50px;
+}
+
+.our-servise{
+    width: 580px;
+    height: 480px;
+}
+
+.name-servise{
+    font-size: 42px;
+    line-height: 56px;
+    text-align: center;    
+    color: #2C1258;
+    margin: 0;
+    width: 100%;
+}
+
+.servise-cards{
+    display: flex;
+}
+
+.ser-card{
+    width: 145px;
+    height: 80px;
+    box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.05);
+    padding: 25px 20px;
+    text-align: center;
+    margin: 30px;
+}
+
+.ser-card:hover{
+    background: #F4AB00;
+    text-decoration: white;
+}
+
+.servise-icon{
+    margin-left: 10px;
+}
+
+.card-servise-text{
+    font-size: 16px;
+    line-height: 16px;
+    color: #2C1258;
+}
+
+
+.name-desc{
+    font-size: 34px;
+    line-height: 54px;
+    color: #2C1258;
+}
+
+.name-desc-text{
+    font-size: 18px;
+    line-height: 34px;
+    color: #604B83;
+}
+
+.servise-description{
+    display: flex;
+    margin-top: 50px;
+}
+
+.servise-ul{
+    list-style-image: url(./logo/click.svg);
+}
+
+.servise-li{
+    font-size: 14px;
+    line-height: 28px;
+    color: #2C1258;
+    line-height: 2.4;
+}
+
+.servise-button{
+    width: 186px;
+    height: 52px;
+    margin-top: 20px;
+}
+
+.serv-but-name{
+    color: #fff;
+}
+
+.orange{
+    width: 25px; 
+    height: 25px; 
+    background: #F4AB00;
 }
